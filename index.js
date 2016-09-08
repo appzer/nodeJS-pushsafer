@@ -1,1 +1,1 @@
-module.exports = require( 'pushsafer.js' );
+module.exports = require( 'pushsafer' );
