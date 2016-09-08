@@ -3,10 +3,10 @@
   "name": "pushsafer-notifications",
   "description": "Pushsafer.com API for node.js",
   "version": "0.0.1",
-  "homepage": "http://github.com/appzer/node-pushsafer",
+  "homepage": "http://github.com/appzer/pushsafer-nodeJS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appzer/node-pushsafer.git"
+    "url": "https://github.com/appzer/pushsafer-nodeJS.git"
   },
   "dependencies": {},
   "devDependencies": {},
