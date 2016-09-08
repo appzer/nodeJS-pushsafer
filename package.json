@@ -1,0 +1,17 @@
+{
+  "author": "Kevin Siml <info@appzer.de>",
+  "name": "pushsafer-notifications",
+  "description": "Pushsafer.com API for node.js",
+  "version": "0.0.1",
+  "homepage": "http://github.com/appzer/node-pushsafer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appzer/node-pushsafer.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
