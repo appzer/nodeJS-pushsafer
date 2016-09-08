@@ -2,7 +2,7 @@
 var push = require( 'pushsafer-notifications' );
 
 var p = new push( {
-	private_key: '9Ijh32Nj2i9Ole3SXc4D',
+	private_key: 'Your20CharPrivateKey',
 	debug: true,
 	onerror: function(err) {
 		console.log('ERROR:', err);
