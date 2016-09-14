@@ -6,7 +6,7 @@
   "homepage": "https://www.pushsafer.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appzer/pushsafer-nodeJS.git"
+    "url": "https://github.com/appzer/nodeJS-pushsafer.git"
   },
   "dependencies": {},
   "devDependencies": {},
