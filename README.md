@@ -1,5 +1,8 @@
 ![Pushsafer](https://www.pushsafer.com/de/assets/logos/logo.png)
 
+[![NPM version](http://img.shields.io/npm/v/pushsafer-notifications.svg)](https://www.npmjs.com/package/pushsafer-notifications)
+[![Downloads](https://img.shields.io/npm/dm/pushsafer-notifications.svg)](https://www.npmjs.com/package/pushsafer-notifications)
+
 Send [pushsafer.com](https://www.pushsafer.com) notifications from Node.JS
 
 Pushsafer make it easy and safe to get push-notifications in real time on your
