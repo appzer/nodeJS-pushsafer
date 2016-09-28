@@ -49,7 +49,7 @@ var msg = {
 	s: '8',                                // sound (value 0-28)
 	v: '2',                                // vibration (empty or value 1-3)
 	i: '5',                                // icon (value 1-98)
-	d: '221',                               // the device or device group id
+	d: '221',                              // the device or device group id
 	p: '',                                 // Image converted to > Data URL with Base64-encoded string
 	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string
 	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string	
