@@ -39,7 +39,7 @@ var msg = {
 var push = require( 'pushsafer-notifications' );
 
 var p = new push( {
-	k: 'Your20CharPrivateKey',             // your 20 chars long private key
+	k: 'Your20CharPrivateKey',             // your 20 chars long private key or 15 chars long alias key
 	debug: true
 });
 
