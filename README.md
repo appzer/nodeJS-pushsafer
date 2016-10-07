@@ -1,8 +1,5 @@
 ![Pushsafer](https://www.pushsafer.com/de/assets/logos/logo.png)
 
-[![NPM version](http://img.shields.io/npm/v/pushsafer-notifications.svg)](https://www.npmjs.com/package/pushsafer-notifications)
-[![Downloads](https://img.shields.io/npm/dm/pushsafer-notifications.svg)](https://www.npmjs.com/package/pushsafer-notifications)
-
 Send [pushsafer.com](https://www.pushsafer.com) notifications from Node.JS
 
 Pushsafer make it easy and safe to get push-notifications in real time on your
@@ -10,6 +7,8 @@ Pushsafer make it easy and safe to get push-notifications in real time on your
 - iOS device (incl. iPhone, iPad, iPod Touch)
 - Windows Phone & Desktop
 - Browser (Chrome & Firefox)
+
+[API description](https://www.pushsafer.com/en/pushapi)
 
 ## Usage
 
@@ -20,18 +19,20 @@ Pushsafer make it easy and safe to get push-notifications in real time on your
 ### Pushsafer API values
 
 Any API parameters, as found on https://www.pushsafer.com/en/pushapi, can be passed in the object. Here's an example with many different parameters.
-```javascript
 
+```javascript
 var msg = {
-	m: 'This is a Node.js test message',   // message
-	t: "Node.js Test",                     // title
-	s: '8',                                // sound (value 0-28)
-	v: '2',                                // vibration (empty or value 1-3)
-	i: '5',                                // icon (value 1-98)
-	d: '221',                              // the device or device group id
-	p: '',                                 // Image converted to > Data URL with Base64-encoded string
-	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string
-	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string
+	m: 'This is a Node.js test message',   // Message (required)
+	t: "Node.js Test",                     // Title (optional)
+	s: '8',                                // Sound (value 0-28) (optional)
+	v: '2',                                // Vibration (empty or value 1-3) (optional)
+	i: '5',                                // Icon (value 1-98) (optional)
+	d: '221',                              // Device or Device group id (optional)
+	u: 'https://www.pushsafer.com',        // an URL (optional)
+	ut: 'Pushsafer.com',		           // URLs title (optional)
+	p: '',                                 // Image converted to > Data URL with Base64-encoded string (optional)
+	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string (optional)
+	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string (optional)
 };
 ```
 ## Examples
@@ -42,20 +43,22 @@ var msg = {
 var push = require( 'pushsafer-notifications' );
 
 var p = new push( {
-	k: 'Your20CharPrivateKey',             // your 20 chars long private key or 15 chars long alias key
+	k: 'Your20CharPrivateKey',             // your 20 chars long private key or 15 chars long alias key  (required)
 	debug: true
 });
 
 var msg = {
-	m: 'This is a Node.js test message',   // message
-	t: "Node.js Test",                     // title
-	s: '8',                                // sound (value 0-28)
-	v: '2',                                // vibration (empty or value 1-3)
-	i: '5',                                // icon (value 1-98)
-	d: '221',                              // the device or device group id
-	p: '',                                 // Image converted to > Data URL with Base64-encoded string
-	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string
-	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string	
+	m: 'This is a Node.js test message',   // Message (required)
+	t: "Node.js Test",                     // Title (optional)
+	s: '8',                                // Sound (value 0-28) (optional)
+	v: '2',                                // Vibration (empty or value 1-3) (optional)
+	i: '5',                                // Icon (value 1-98) (optional)
+	d: '221',                              // Device or Device Group id (optional)
+	u: 'https://www.pushsafer.com',        // an URL (optional)
+	ut: 'Pushsafer.com',		           // URLs title (optional)
+	p: '',                                 // Image converted to > Data URL with Base64-encoded string (optional)
+	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string (optional)
+	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string (optional)
 };
 
 // console.log( p );
