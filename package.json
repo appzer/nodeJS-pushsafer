@@ -2,7 +2,7 @@
   "author": "Kevin Siml <info@appzer.de>",
   "name": "pushsafer-notifications",
   "description": "Pushsafer.com API for node.js",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "homepage": "https://www.pushsafer.com",
   "repository": {
     "type": "git",
