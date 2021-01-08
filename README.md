@@ -35,6 +35,7 @@ var msg = {
 	pr: '2',                               // Priority (optional: -2, -1, 0, 1, 2)
 	re: '60',                              // Retry (optional: 60-10800 seconds)
 	ex: '60',                              // Expire (optional: 60-10800 seconds)
+	cr: '20',                              // Confirm (optional: 10-10800 seconds)
 	a: '1',				       // Answer
 	p: '',                                 // Image converted to > Data URL with Base64-encoded string (optional)
 	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string (optional)
@@ -67,6 +68,7 @@ var msg = {
 	pr: '2',                               // Priority (optional: -2, -1, 0, 1, 2)
 	re: '60',                              // Retry (optional: 60-10800 seconds)
 	ex: '60',                              // Expire (optional: 60-10800 seconds)
+	cr: '20',                              // Confirm (optional: 60-10800 seconds)
 	a: '1',                                // Answer
 	p: '',                                 // Image converted to > Data URL with Base64-encoded string (optional)
 	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string (optional)
