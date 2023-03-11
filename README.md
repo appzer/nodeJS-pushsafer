@@ -37,6 +37,8 @@ var msg = {
 	ex: '60',                              // Expire (optional: 60-10800 seconds)
 	cr: '20',                              // Confirm (optional: 10-10800 seconds)
 	a: '1',				       // Answer
+	ao: 'yes|no|maybe',		       // Answer Options seperated by a pipe character
+	af: '1',			       // Force Answer
 	p: '',                                 // Image converted to > Data URL with Base64-encoded string (optional)
 	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string (optional)
 	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string (optional)
@@ -70,6 +72,8 @@ var msg = {
 	ex: '60',                              // Expire (optional: 60-10800 seconds)
 	cr: '20',                              // Confirm (optional: 60-10800 seconds)
 	a: '1',                                // Answer
+	ao: 'yes|no|maybe',                    // Answer Options seperated by a pipe character
+	af: '1',                               // Force Answer
 	p: '',                                 // Image converted to > Data URL with Base64-encoded string (optional)
 	p2: '',                                // Image 2 converted to > Data URL with Base64-encoded string (optional)
 	p3: ''                                 // Image 3 converted to > Data URL with Base64-encoded string (optional)
